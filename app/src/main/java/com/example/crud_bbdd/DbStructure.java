@@ -7,7 +7,6 @@ public class DbStructure {
     // make the constructor private.
     private DbStructure() {}
 
-    /* Inner class that defines the table contents */
     public static class FeedEntry implements BaseColumns {
         public static final String TABLE_NAME = "User";
         public static final String COLUMN_NAME = "id";
